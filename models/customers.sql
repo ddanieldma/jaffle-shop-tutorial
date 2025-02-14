@@ -1,3 +1,9 @@
+{{
+    config(
+        materialized='view'
+    )
+}}
+
 -- Pulling customers table from raw
 with customers as (
 
